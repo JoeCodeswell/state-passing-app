@@ -1,0 +1,248 @@
+joeco@joethinks MINGW64 ~
+$ pwd
+/c/Users/joeco
+
+joeco@joethinks MINGW64 ~
+$ cd /c/
+
+joeco@joethinks MINGW64 /c
+$ ls
+'$Recycle.Bin'/                      MinGW/
+ 1bat/                               MSOCache/
+ 1d/                                 pagefile.sys
+ 1IT/                                PerfLogs/
+ 1j/                                'Program Files'/
+ 5f09326a65fb6aa68428579b66e6081c/  'Program Files (x86)'/
+ Boot/                               ProgramData/
+ bootmgr                             Python27/
+ BOOTNXT                             Python35/
+ BOOTSECT.BAK                        Recovery/
+ cygwin/                             sc2chrome.exe.lnk*
+ cygwin64/                           spark-1.6.2-bin-hadoop2.6/
+'Documents and Settings'@            swapfile.sys
+ eclipse/                           'System Volume Information'/
+ EclipseCDTmars/                     tmp/
+ flutter/                            Users/
+ flutter_0.2.8-beta/                 web2py/
+ flutter_0.4.4/                     'web2py - Copy'/
+ HaxLogs.txt                         Windows/
+ hiberfil.sys                        Windows.old/
+ Intel/                              winutils/
+ jtmp/                               xampp/
+ mfg/
+
+joeco@joethinks MINGW64 /c
+$ cd 1dev/ReactPjs
+bash: cd: 1dev/ReactPjs: No such file or directory
+
+joeco@joethinks MINGW64 /c
+$ cd 1d/ReactPjs
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs
+$ ls
+create-react-appPjs/  reactAnthemsPj/  testTestPj/  zetc/
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs
+$ cd create-react-appPjs
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs
+$ ls
+statePassingPj/
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs
+$ cd statePassingPj/
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj
+$ la
+bash: la: command not found
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj
+$ ls
+initNotes.txt  state-passing-app/
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj
+$ cd state-passing-app
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app
+$ # create state-passin-app on my github account no readme
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app
+$ # see https://www.youtube.com/watch?v=2vASHVT0qKc at 1:08
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app
+$ # https://github.com/JoeCodeswell?tab=repositories
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app
+$ ^C
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app
+$ # no readme no description public  hit [create repository]
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app
+$ # quick setup https://github.com/JoeCodeswell/state-passing-app.git
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app
+$ # at this point the repo has been set up
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app
+$ # now to upload the code
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app
+$ # see ibid youtube @ 3:28
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app
+$ # now init the git
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app
+$ git init
+Initialized empty Git repository in C:/1d/ReactPjs/create-react-appPjs/statePass                                     ingPj/state-passing-app/.git/
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-                                     passing-app (master)
+$ # ibid 4:40 here is our https address for our github repo https://github.com/JoeCodeswell/state-passing-app.git
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # apply above to the $ git remote add origin <https link> command
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ git remote aadd origin  https://github.com/JoeCodeswell/state-passing-app.git
+error: Unknown subcommand: aadd
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ git remote add origin  https://github.com/JoeCodeswell/state-passing-app.git
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # above is ibid 5:02
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # remaining commands from ibid
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # git remote -v
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # git add .
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # git commit -m "first commit"
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # git push origin master
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # git help
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # check access for push & pull with    $ git remote -v
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ git remote -v
+origin  https://github.com/JoeCodeswell/state-passing-app.git (fetch)
+origin  https://github.com/JoeCodeswell/state-passing-app.git (push)
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # upload all files in dir using    $ git add .
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/manifest.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.test.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/logo.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/registerServiceWorker.js.
+The file will have its original line endings in your working directory
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # above was modified by our exsting .gitignore
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # ibid 5:50
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # next commit   ibid 6:35
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ git commit -m "first commit"
+[master (root-commit) c04ecd5] first commit
+ 14 files changed, 9864 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/manifest.json
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/registerServiceWorker.js
+ create mode 100644 yarn.lock
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ # ibid 6:55   now use   $ git push origin master
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ git push origin master
+Username for 'https://github.com': JoeCodeswell
+
+
+
+
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ git push origin master
+Username for 'https://github.com': JoeCodeswell
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$ git push -u origin master
+Username for 'https://github.com': JoeCodeswell
+
+joeco@joethinks MINGW64 /c/1d/ReactPjs/create-react-appPjs/statePassingPj/state-passing-app (master)
+$
